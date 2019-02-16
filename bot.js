@@ -311,16 +311,6 @@ client.on("message", message => {
 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 
-💎『الدعم الفني والمساعدة』💎
-
-^^invite | القسم الاول لي اضافه البوت 
-
-^^support| القسم الثاني  الدعم الفني و المساعدة
-
-القسم الثالث مصمم البوت | @حـ♥̨̥̬̩سوني آإلعرآإقـ♥̨̥̬̩ي#7725 
-
-● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
-
 
 
 
@@ -368,15 +358,6 @@ client.on("message", message => {
 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 
-	  
-
-💎『الدعم الفني والمساعدة』💎
-
-^^invite | القسم الاول لي اضافه البوت 
-
-^^support| القسم الثاني  الدعم الفني و المساعدة
-
-القسم الثالث مصمم البوت | @حـ♥̨̥̬̩سوني آإلعرآإقـ♥̨̥̬̩ي#7725 
 
 
 
@@ -428,14 +409,6 @@ client.on("message", message => {
 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 	  
-
-💎『الدعم الفني والمساعدة』💎
-
-^^invite | القسم الاول لي اضافه البوت 
-
-^^support| القسم الثاني  الدعم الفني و المساعدة
-
-القسم الثالث مصمم البوت | @حـ♥̨̥̬̩سوني آإلعرآإقـ♥̨̥̬̩ي#7725 
 
 
 `)
@@ -770,7 +743,7 @@ client.on("guildCreate", guild => {
   
   
 client.on('ready', () => {
-   client.user.setGame(" ^^help | ^^invite ");
+   client.user.setGame(" ^^help-WolfGod ");
 }); 
 
 client.on("message", message => {
@@ -804,35 +777,13 @@ client.on("message", message => {
   
 });
 
-client.on('message', message => {
-  if (true) {
-if (message.content === '^^support') {
-      message.author.send(' |https://discord.gg/T4Q7vXP| لـ أي استفسار').catch(e => console.log(e.stack));
-
-    }
-   } 
-  });
   
   
-
-client.on('message', message => {
-     if (message.content === "^^support") {
-     let embed = new Discord.RichEmbed()
-  .setAuthor(message.author.username)
-  .setColor("#9B59B6")
-  .addField(" Done | تــــم" , " |  تــــم ارســالك في الخــاص")
-     
-     
-     
-  message.channel.sendEmbed(embed);
-    }
-});
-
 
 client.on('message', message => {
   if (true) {
 if (message.content === '^^invite') {
-      message.author.send(' رابط البوت |  https://discordapp.com/oauth2/authorize?client_id=378398305153187840&scope=bot&permissions=2146958591 ').catch(e => console.log(e.stack));
+      message.author.send(' رابط البوت |  https://discordapp.com/api/oauth2/authorize?client_id=546131925245362198&permissions=8&scope=bot ').catch(e => console.log(e.stack));
 
     }
    } 
